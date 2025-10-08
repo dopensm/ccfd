@@ -73,10 +73,11 @@ Two models were selected based on performance and interpretability:
 **8\. Deployment**
 
 * Trained ensemble and threshold saved using **joblib**:  
-* fraud\_ensemble\_model.pkl  
+* best\_rf.pkl
+* best\_xgb.pkl  
 * fraud\_threshold.pkl  
-* Model can be loaded in Python via predict.py for inference.  
-* Dependencies are listed in requirements.txt.
+* Model can be loaded in Python via ccfd.ipynb for inference.  
+* Dependencies are listed in rqmnts.txt.
 
 **9\. Usage**
 
@@ -87,11 +88,11 @@ cd ccfd
 
 2. Install dependencies:
 
-pip install \-r requirements.txt
+pip install \-r rqmnts.txt
 
 3. Run predictions:
 
-python predict.py
+python ccfd.ipynb
 
 **10\. Conclusion**
 
@@ -105,3 +106,4 @@ python predict.py
 * Experiment with deep learning models for sequence-based transaction prediction.  
 * Deploy a **web API** or **microservice** for real-time fraud detection.
 
+#nsmz
