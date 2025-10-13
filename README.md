@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-This repository contains a deployment-ready ensemble model (rf + xgb) for credit card fraud detection.
+This repository contains an ensemble model (rf + xgb) for credit card fraud detection.
 
 ## Files
 - `models/` : contains trained models and threshold
